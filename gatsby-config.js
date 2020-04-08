@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Coolest Library`,
+    title: `E-Learning Dokumentation EZW`,
     author: `Pedro Nauck`,
     description: `Gatsby starter with Docz and a blog for your documentation`,
   },
@@ -10,6 +10,7 @@ module.exports = {
     },
   ],
   plugins: [
+    'gatsby-theme-docz',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
