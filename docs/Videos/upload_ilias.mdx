@@ -20,6 +20,8 @@ Auf Kurs- und Ordner-Ebene gibt es oben auf der Seite einen Link "Seite gestalte
 diesen Link, kann man anschließend über das [+]-Zeichen "Bild/Audio/Video einfügen" auswählen.
 Über [Datei wählen] lässt sich im nächsten Schritt z.B. eine MP4-Videodatei auswählen.
 
+![seite gestalten - hinzufügen - Bild/Video](./seite-gestalten-video.png) ![Ilias - neues Medienobjekt hochladen](./ilias-medienobjekt.png)
+
 Das Einbinden auf diesem Weg funktioniert auch in anderen ILIAS-Objekten (z.B. in Wikis, Lernmodulen
 usw.). 
 
@@ -66,4 +68,28 @@ Hier finden Sie weitere Infos zu Interaktiven Videos:
 https://ilias.uni-freiburg.de/goto.php?target=pg_37783_221303&client_id=unifreiburg
 
 ## Zu große Videos konvertieren
-Sollte ihr Video größer als das Uploadlimit sein, können Sie es mit einem Videokonverter in ein kompaktes Format umwandeln. Es wird das Format .mp4 mit einer H.264-Kodierung empfohlen. Eine gute kostenfreie Software ist [Handbreak](https://handbrake.fr/).
+Sollte Ihr Video größer als das Uploadlimit sein, können Sie es mit einem Videokonverter in ein kompaktes Format umwandeln. Eine gute kostenfreie Software ist [Handbrake](https://handbrake.fr/).
+
+**Kurzanleitung Handbrake**
+
+Wählen Sie **Quelle** in der Werkzeugleiste oder ziehen Sie das Video per Drag & Drop in das Fenster.
+
+![Quelle](hb-quelle.png)
+
+**Videoeinstellungen wählen**
+
+Geben Sie im Reiter **Bild** für Speichergeometrie (Auflösung) 1280x720 ein. 
+Im Reiter **Video** stellen Sie die Bildrate auf "Wie Quelle" und geben eine **Bitrate** ein.
+Für Bildschirmaufzeichnungen sind Werte von 1000 bis 2000 ausreichend, für bewegte Videos sind 5000 empfehlenswert.
+
+
+![720p](hb-720p.png)
+![bitrate wie quelle, 1500 kbps](hb-fps-bitrate.png)
+
+**Den Ausgabeordner wählen**
+
+Geben Sie einen Ausgabeordner und Dateinamen an. Dort wird das fertige Video gespeichert. Die Dateiendung sollte auf .mp4 oder .m4v gestellt sein.
+
+![Ziel-Ordner angeben](hb-ziel.png)
+
+Wählen Sie den Start-Knopf in der Werkzeugleiste, um den Kodiervorgang zu starten.
