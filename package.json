@@ -55,5 +55,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve"
+  },
+  "resolutions": {
+    "graphql": "version"
   }
 }
