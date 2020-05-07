@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 Zoom | A Minimal Book Example</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 Zoom | A Minimal Book Example" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 Zoom | A Minimal Book Example" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Yihui Xie" />
+
+
+<meta name="date" content="2020-05-07" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="tools.html"/>
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Dokumentation E-Learning Institut für Erziehungswissenschaft</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Dokumentation E-Learning Institut für Erziehungswissenschaft</a></li>
+<li class="chapter" data-level="2" data-path="e-learning-dokumentation-ezw-freiburg.html"><a href="e-learning-dokumentation-ezw-freiburg.html"><i class="fa fa-check"></i><b>2</b> E-Learning Dokumentation EZW Freiburg</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="e-learning-dokumentation-ezw-freiburg.html"><a href="e-learning-dokumentation-ezw-freiburg.html#software-und-hardware-am-institut"><i class="fa fa-check"></i><b>2.1</b> Software und Hardware am Institut</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="videos.html"><a href="videos.html"><i class="fa fa-check"></i><b>3</b> Videos</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="videos.html"><a href="videos.html#camtasia"><i class="fa fa-check"></i><b>3.1</b> Camtasia</a></li>
+<li class="chapter" data-level="3.2" data-path="videos.html"><a href="videos.html#exportieren-für-ilias"><i class="fa fa-check"></i><b>3.2</b> Exportieren für Ilias</a></li>
+<li class="chapter" data-level="3.3" data-path="videos.html"><a href="videos.html#panopto"><i class="fa fa-check"></i><b>3.3</b> Panopto</a></li>
+<li class="chapter" data-level="3.4" data-path="videos.html"><a href="videos.html#videos-auf-ilias"><i class="fa fa-check"></i><b>3.4</b> Videos auf ILIAS</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="ilias.html"><a href="ilias.html"><i class="fa fa-check"></i><b>4</b> Ilias</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="ilias.html"><a href="ilias.html#neue-lehrveranstaltungen-anlegen"><i class="fa fa-check"></i><b>4.1</b> Neue Lehrveranstaltungen anlegen</a></li>
+<li class="chapter" data-level="4.2" data-path="ilias.html"><a href="ilias.html#kursadministratoren-und-tutoren-eintragen"><i class="fa fa-check"></i><b>4.2</b> Kursadministratoren und Tutoren eintragen</a></li>
+<li class="chapter" data-level="4.3" data-path="ilias.html"><a href="ilias.html#ordner-und-dokumente"><i class="fa fa-check"></i><b>4.3</b> Ordner und Dokumente</a></li>
+<li class="chapter" data-level="4.4" data-path="ilias.html"><a href="ilias.html#tests"><i class="fa fa-check"></i><b>4.4</b> Tests</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="umfragen.html"><a href="umfragen.html"><i class="fa fa-check"></i><b>5</b> Umfragen</a></li>
+<li class="chapter" data-level="6" data-path="tools.html"><a href="tools.html"><i class="fa fa-check"></i><b>6</b> Tools</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="tools.html"><a href="tools.html#kollaboratives-schreiben"><i class="fa fa-check"></i><b>6.1</b> Kollaboratives Schreiben</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="zoom.html"><a href="zoom.html"><i class="fa fa-check"></i><b>7</b> Zoom</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="zoom.html"><a href="zoom.html#meetings-erstellen"><i class="fa fa-check"></i><b>7.1</b> Meetings erstellen</a></li>
+<li class="chapter" data-level="7.2" data-path="zoom.html"><a href="zoom.html#meetings-aufzeichnen"><i class="fa fa-check"></i><b>7.2</b> Meetings aufzeichnen</a></li>
+<li class="chapter" data-level="7.3" data-path="zoom.html"><a href="zoom.html#audio--und-videoeinstellungen"><i class="fa fa-check"></i><b>7.3</b> Audio- und Videoeinstellungen</a></li>
+<li class="chapter" data-level="7.4" data-path="zoom.html"><a href="zoom.html#bedienelemente-zur-moderation"><i class="fa fa-check"></i><b>7.4</b> Bedienelemente zur Moderation</a></li>
+<li class="chapter" data-level="7.5" data-path="zoom.html"><a href="zoom.html#tipps-zur-moderation"><i class="fa fa-check"></i><b>7.5</b> Tipps zur Moderation</a></li>
+<li class="chapter" data-level="7.6" data-path="zoom.html"><a href="zoom.html#offizielle-dokumentation"><i class="fa fa-check"></i><b>7.6</b> Offizielle Dokumentation</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Minimal Book Example</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="zoom" class="section level1" number="7">
+<h1 number="7"><span class="header-section-number">7</span> Zoom</h1>
+<p>Zoom <a href="https://zoom.us">(zoom.us)</a> ist ein Service für Meetings und Webinare.
+Hier finden Sie eine Übersicht an Videoanleitungen rund um Zoom.</p>
+<div id="meetings-erstellen" class="section level2" number="7.1">
+<h2 number="7.1"><span class="header-section-number">7.1</span> Meetings erstellen</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QAwXDo0DiWg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="meetings-aufzeichnen" class="section level2" number="7.2">
+<h2 number="7.2"><span class="header-section-number">7.2</span> Meetings aufzeichnen</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kGxR5_BHgEY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p>Wählen Sie “Aufzeichnen” und “Auf diesem Computer aufzeichnen”.</p>
+<p>Nach dem Beenden des Meetings wird eine mp4-Datei erstellt, die Sie <a href="./images/docs-videos-upload-ilias">auf Ilias hochladen</a> können.</p>
+</div>
+<div id="audio--und-videoeinstellungen" class="section level2" number="7.3">
+<h2 number="7.3"><span class="header-section-number">7.3</span> Audio- und Videoeinstellungen</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_mK57mE4AcE?start=134" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="bedienelemente-zur-moderation" class="section level2" number="7.4">
+<h2 number="7.4"><span class="header-section-number">7.4</span> Bedienelemente zur Moderation</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Hv1c6OCm_tU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="tipps-zur-moderation" class="section level2" number="7.5">
+<h2 number="7.5"><span class="header-section-number">7.5</span> Tipps zur Moderation</h2>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/d0SUJZiJYA0?start=188" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div>
+<div id="offizielle-dokumentation" class="section level2" number="7.6">
+<h2 number="7.6"><span class="header-section-number">7.6</span> Offizielle Dokumentation</h2>
+<p>Im offiziellen <a href="https://support.zoom.us/hc/de/categories/201146643">Zoom Help Center</a> finden Sie eine vollständige Dokumentation von Zoom.</p>
+<p><strong>Teilnehmen und starten</strong></p>
+<ul class="article-list">
+<pre><code>&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362613-Wie-hoste-ich-ein-Videomeeting-&quot; class=&quot;article-list-link&quot;&gt;Wie hoste ich ein Videomeeting?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362193-Wie-nehme-ich-an-einem-Meeting-teil-&quot; class=&quot;article-list-link&quot;&gt;Wie nehme ich an einem Meeting teil?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362423-Wie-starte-ich-ein-geplantes-Meeting-als-Host-und-wie-nehme-ich-daran-teil-&quot; class=&quot;article-list-link&quot;&gt;Wie starte ich ein geplantes Meeting als Host und wie nehme ich daran teil?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362183-Wie-lade-ich-andere-zur-Teilnahme-am-Meeting-ein-&quot; class=&quot;article-list-link&quot;&gt;Wie lade ich andere zur Teilnahme am Meeting ein?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/206122046-Kann-ich-simultane-Meetings-moderieren-&quot; class=&quot;article-list-link&quot;&gt;Kann ich simultane Meetings moderieren?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/115002262083-Wie-f%C3%BChre-ich-vor-dem-Beitritt-zu-einem-Meeting-einen-Test-durch-&quot; class=&quot;article-list-link&quot;&gt;Wie führe ich vor dem Beitritt zu einem Meeting einen Test durch?&lt;/a&gt;
+
+&lt;/li&gt;</code></pre>
+</ul>
+<p><strong>Planen</strong></p>
+<ul class="article-list">
+<pre><code>&lt;li class=&quot;article-list-item article-promoted&quot;&gt;
+
+    &lt;span data-title=&quot;Empfohlener Beitrag&quot; class=&quot;icon-star&quot;&gt;&lt;/span&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362413-Wie-plane-ich-Meetings-&quot; class=&quot;article-list-link&quot;&gt;Wie plane ich Meetings?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item article-promoted&quot;&gt;
+
+    &lt;span data-title=&quot;Empfohlener Beitrag&quot; class=&quot;icon-star&quot;&gt;&lt;/span&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/214973206-Planung-von-wiederkehrenden-Meetings&quot; class=&quot;article-list-link&quot;&gt;Planung von wiederkehrenden Meetings&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/202828525-Beitritt-vor-Host&quot; class=&quot;article-list-link&quot;&gt;Beitritt vor Host&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/203276937-Pers%C3%B6nliche-Meeting-ID-PMI-verwenden&quot; class=&quot;article-list-link&quot;&gt;Persönliche Meeting-ID (PMI) verwenden&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362533-Jetzt-treffen-vs-Geplante-Meetings&quot; class=&quot;article-list-link&quot;&gt;Jetzt treffen vs Geplante Meetings&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/360000488243-Kalenderintegration-in-Desktop-Client&quot; class=&quot;article-list-link&quot;&gt;Kalenderintegration in Desktop Client&lt;/a&gt;
+
+&lt;/li&gt;</code></pre>
+</ul>
+<p><strong>Videowebinar</strong></p>
+<ul class="article-list">
+<pre><code>&lt;li class=&quot;article-list-item article-promoted&quot;&gt;
+
+    &lt;span data-title=&quot;Empfohlener Beitrag&quot; class=&quot;icon-star&quot;&gt;&lt;/span&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/200917029-Erste-Schritte-mit-dem-Webinar&quot; class=&quot;article-list-link&quot;&gt;Erste Schritte mit dem Webinar&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/115004834466-Teilnehmer-im-Webinar-verwalten&quot; class=&quot;article-list-link&quot;&gt;Teilnehmer im Webinar verwalten&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/204619915-Ein-Webinar-mit-Registrierung-planen&quot; class=&quot;article-list-link&quot;&gt;Ein Webinar mit Registrierung planen&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/206316975-Webinar-%C3%9Cbungssitzung&quot; class=&quot;article-list-link&quot;&gt;Webinar-Übungssitzung&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/360000489183-On-Demand-Webinare&quot; class=&quot;article-list-link&quot;&gt;On-Demand-Webinare&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/216354763-Planung-eines-wiederkehrenden-Meetings&quot; class=&quot;article-list-link&quot;&gt;Planung eines wiederkehrenden Meetings&lt;/a&gt;
+
+&lt;/li&gt;</code></pre>
+</ul>
+<p><strong>Einstellungen und Bedienelemente</strong></p>
+<ul class="article-list">
+<pre><code>&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362623-Informationen-zu-den-Einstellungen&quot; class=&quot;article-list-link&quot;&gt;Informationen zu den Einstellungen&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/200941109-Bedienelemente-f%C3%BCr-Teilnehmer-in-einem-Meeting&quot; class=&quot;article-list-link&quot;&gt;Bedienelemente für Teilnehmer in einem Meeting&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362603-Bedienelemente-des-Hosts-in-einem-Meeting&quot; class=&quot;article-list-link&quot;&gt;Bedienelemente des Hosts in einem Meeting&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/206476313-Videogruppenr%C3%A4ume-verwalten&quot; class=&quot;article-list-link&quot;&gt;Videogruppenräume verwalten&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/203650445-Chat-im-Meeting&quot; class=&quot;article-list-link&quot;&gt;Chat im Meeting&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/115004809306-Steuerung-und-Deaktivieren-vom-Chat-im-Meeting&quot; class=&quot;article-list-link&quot;&gt;Steuerung und Deaktivieren vom Chat im Meeting&lt;/a&gt;
+
+&lt;/li&gt;</code></pre>
+</ul>
+<p><strong>Häufig gestellte Fragen</strong></p>
+<ul class="article-list">
+<pre><code>&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362843-Pers%C3%B6nliche-Meeting-ID-PMI-und-Pers%C3%B6nlicher-Link-&quot; class=&quot;article-list-link&quot;&gt;Persönliche Meeting-ID (PMI) und Persönlicher Link &lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362773-Wo-kann-ich-den-Text-der-Meeting-Einladung-finden-&quot; class=&quot;article-list-link&quot;&gt;Wo kann ich den Text der Meeting-Einladung finden?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362713-E-Mail-Benachrichtigung-Ihre-Meeting-Teilnehmer-warten-&quot; class=&quot;article-list-link&quot;&gt;E-Mail-Benachrichtigung ‚‚Ihre Meeting-Teilnehmer warten!‘‘&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362373-Was-ist-die-Meeting-ID-&quot; class=&quot;article-list-link&quot;&gt;Was ist die Meeting-ID?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/202460676-Ist-mein-Meeting-zeitlich-begrenzt-&quot; class=&quot;article-list-link&quot;&gt;Ist mein Meeting zeitlich begrenzt?&lt;/a&gt;
+
+&lt;/li&gt;
+
+&lt;li class=&quot;article-list-item&quot;&gt;
+
+&lt;a href=&quot;https://support.zoom.us/hc/de/articles/201362523-Warum-tritt-bei-meinem-Meeting-eine-Zeit%C3%BCberschreitung-ein-&quot; class=&quot;article-list-link&quot;&gt;Warum tritt bei meinem Meeting eine Zeitüberschreitung ein?&lt;/a&gt;
+
+&lt;/li&gt;</code></pre>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="tools.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["project.pdf", "project.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
