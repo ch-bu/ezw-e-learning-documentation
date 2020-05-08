@@ -1,4 +1,4 @@
-# Ilias
+# Lernplattform Ilias
 
 ## Neue Lehrveranstaltungen anlegen
 Das Anlegen von Kursräumen geschieht immer über das Magazin. Gehen Sie wie folgt vor:
@@ -120,18 +120,18 @@ Archivs übernehmen“ aktiviert und bestätigen Sie mit „Dateien hochladen“
 ![alt](./images/Dateiupload-zip.jpg)
 
 
-## Tests
+## Tests erstellen
 Das ILIAS-Objekt "Test", kann in einem Kursraum über die Schaltfläche "Neues Objekt hinzufügen" angelegt werden.
 Es steht eine große Menge an unterschiedlichen Fragetypen zur Verfügung. Sie können zudem Rückmeldung zu einzelnen Fragen bzw. Antworten hinterlegen und Musterlösungen einstellen.
 
-### Fragenpools
+### Konzept: Fragenpools
 Fragen kann man entweder direkt im Test oder über einen Fragenpool anlegen. Ein Fragenpool kann für mehrere verschiedene Tests wiederverwendet werden.
 Fragenpools sind eigenständige Elemente und können daher an einem anderen Ort im Magazin angelegt werden. Wenn Sie Fragen aus einem Fragenpool beispielsweise in mehreren Veranstaltungen verwenden wollen, können Sie diese in einem Fragenpool in dem Bereich "Semesterübergreifende Inhalte" sammeln.
 
 Um einen Fragenpool anzulegen, wählen Sie in der rechten oberen Ecke unter "Objekt hinzufügen" "Fragenpool für Test" bzw. "Fragenpool für Umfrage" aus.
 Im Fragepool können Sie nun neue Fragen anlegen.
 
-### Test erstellen
+### Neuen Test anlegen
 Wählen Sie in einem Kursraum die Schaltfläche "Neues Objekt hinzufügen" -> "Test".
 Wählen Sie einen Titel und klicken Sie auf "Test anlegen".
 

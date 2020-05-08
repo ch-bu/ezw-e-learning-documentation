@@ -1,12 +1,14 @@
-# Videos
+# Video-Tools
 
-## Bildschirmaufzeichnung mit Camtasia
+## Online-Vorlesungen erstellen
+
+Mit [Camtasia](https://www.techsmith.com/download/camtasia/) kann der Bildschirm inklusive Sprache aufgezeichnet werden und die entstandene Aufzeichnung geschnitten, bearbeitet und erweitert werden. Das Institut besitzt Lizenzen für Camtasia.
 
 Vom Rechenzentrum gibt es ein umfassendes Video zur Erstellung von Vorlesungen und Videoinhalten mit Camtasia.
 
-Ab 20:50 gibt es Empfehlungen zu Umfang und der Vorbereitung von Onlinevorlesungen.
+Ab 20:50 gibt es allgemeine Empfehlungen zu Umfang und der Vorbereitung von Onlinevorlesungen.
 
-Ab 31:30 geht es konkret um die Programmoberfläche anhand einer Beispielvorlesung.
+Ab 31:30 geht es konkret um die Programmoberfläche von Camtasia anhand einer Beispielvorlesung.
 
 <iframe
   width="640"
@@ -16,21 +18,21 @@ Ab 31:30 geht es konkret um die Programmoberfläche anhand einer Beispielvorlesu
   allowfullscreen
 ></iframe>
 
-### Praktische Tastenkombinationen
+### Praktische Tastenkombinationen zu Camtasia
 
 Unter Windows starten Sie die Aufzeichnung mit der Taste **F9** und stoppen Sie mit **F10**. Pausieren und Fortfahren geschieht ebenfalls durch **F9**.
 
 Unter MacOS starten Sie die Aufzeichnung mit **Command+Shift+2** und stoppen mit **Command+Option+2**. Pausieren und Fortfahren geschieht ebenfalls mit **Command+Shift+2**.
 
-### Exportieren für Ilias
+### Videos aus Camtasia exportieren
 Klicken Sie im grünen Menü "Weitergeben" auf "Lokale Datei" und wählen Sie "Nur MP4 (720p)". Diese Einstellung ist für die meisten Anwendungen ausreichend und sorgt dafür, dass die Dateigröße "im Rahmen bleibt".
 
 ![Weitergeben-Menü](./images/Camtasia-weitergeben.png) ![mp4 - 720p auswählen](./images/Camtasia-720.png)
 
 
-## Videos auf ILIAS hochladen
+## Videos auf Ilias hochladen
 
-Um Videos so auf ILIAS einzubinden, dass sie direkt abspielbar sind, haben Sie folgende Möglichkeiten:
+Um Videos so auf Ilias einzubinden, dass sie direkt abspielbar sind, haben Sie folgende Möglichkeiten:
 
 1. [Direkter Upload in Ilias](#direkter-upload-in-ilias)
 
@@ -39,8 +41,6 @@ Um Videos so auf ILIAS einzubinden, dass sie direkt abspielbar sind, haben Sie f
 3. [Einbinden über "ViMP"](#einbinden-%C3%BCber-vimp)
 
 4. [Als Interaktives Video einfügen](#interaktives-video)
-
-5. [Zu große Videos konvertieren](#zu-gro%C3%9Fe-videos-konvertieren)
 
 ### Direkter Upload in Ilias
 Auf Kurs- und Ordner-Ebene gibt es oben auf der Seite einen Link "Seite gestalten". Klickt man auf
@@ -54,7 +54,7 @@ diesen Link, kann man anschließend über das [+]-Zeichen "Bild/Audio/Video einf
 Das Einbinden auf diesem Weg funktioniert auch in anderen ILIAS-Objekten (z.B. in Wikis, Lernmodulen
 usw.). 
 
-Die Uploadgrenze liegt bei 500 MB pro Video.
+Die Uploadgrenze liegt bei 500 MB pro Video. Ggf. können Sie [zu große Videos konvertieren](#zu-gro%C3%9Fe-videos-konvertieren).
 
 ### Einbetten über das Objekt "Mediacast"
 Das Objekt Mediacast findet man unter [Neues Objekt hinzufügen]. Der Mediacast eignet sich gut für
@@ -63,7 +63,7 @@ um neue Videos ergänzt wird. Anders als bei der ersten Möglichkeit werden die 
 Kursseite eingebunden, sondern erscheinen in einem eigenen Objekt. Es lassen sich unterschiedliche
 Darstellungsformen auswählen, optional kann auch ein Download ermöglicht werden. 
 
-Die Uploadgrenze liegt auch hier bei 500 MB pro Video.
+Die Uploadgrenze liegt auch hier bei 500 MB pro Video. Ggf. können Sie [zu große Videos konvertieren](#zu-gro%C3%9Fe-videos-konvertieren).
 
 Hier finden Sie genaue Infos zum Videoupload mit Mediacast: https://ilias.uni-freiburg.de/goto.php?target=pg_57504_221303&client_id=unifreiburg
 
@@ -98,7 +98,7 @@ Hier finden Sie weitere Infos zu Interaktiven Videos:
 https://ilias.uni-freiburg.de/goto.php?target=pg_37783_221303&client_id=unifreiburg
 
 
-### Zu große Videos konvertieren
+## Zu große Videos konvertieren
 Sollte Ihr Video größer als das Uploadlimit sein, können Sie es mit einem Videokonverter in ein kompaktes Format umwandeln. Eine gute kostenfreie Software ist [Handbrake](https://handbrake.fr/).
 
 **Kurzanleitung Handbrake**
@@ -107,11 +107,11 @@ Wählen Sie **Quelle** in der Werkzeugleiste oder ziehen Sie das Video per Drag 
 
 ![Quelle](./images/hb-quelle.png)
 
-**Videoeinstellungen wählen**
+**Bild- und Videoeinstellungen wählen**
 
 Geben Sie im Reiter **Bild** für Speichergeometrie (Auflösung) 1280x720 ein. 
 Im Reiter **Video** stellen Sie die Bildrate auf "Wie Quelle" und geben eine **Bitrate** ein.
-Für Bildschirmaufzeichnungen sind Werte von 1000 bis 2000 ausreichend, für bewegte Videos sind 5000 empfehlenswert.
+Für Bildschirmaufzeichnungen sind Werte von 500 bis 1500 ausreichend, für bewegte Videos sind 5000 empfehlenswert.
 
 
 ![720p](./images/hb-720p.png)
@@ -124,3 +124,5 @@ Geben Sie einen Ausgabeordner und Dateinamen an. Dort wird das fertige Video ges
 ![Ziel-Ordner angeben](./images/hb-ziel.png)
 
 Wählen Sie den Start-Knopf in der Werkzeugleiste, um den Kodiervorgang zu starten.
+
+Die kovertierten Videos sollten nun kleiner als 500 MB sein und auf Ilias hochgeladen werden können.
