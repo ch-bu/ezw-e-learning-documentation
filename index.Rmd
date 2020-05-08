@@ -1,13 +1,34 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
-date: "`r Sys.Date()`"
+title: "EZW E-Learning Dokumentation"
+author: "erstellt von Christian Burkhart und Leonard Wölfl"
+date: "Stand: `r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Auf dieser Seite findet ihr alle wichtigen Informationen zur Erstellung von Online-Veranstaltungen am Institut für Erziehungswissenschaft."
 ---
+# Allgemeine Informationen
 
-# Dokumentation E-Learning Institut für Erziehungswissenschaft
+In dieser Dokumentation finden Sie alle wichtigen Informationen zur Erstellung von Online-Veranstaltungen am Institut für Erziehungswissenschaft.
+
+Die Dokumentation ist nach verschiedenen Themen geordnet, die im linken Verzeichnis abrufbar sind.
+
+Weitere Informationen finden Sie auf den Seiten des Rechenzentrums:
+
+* [Rechenzentrum: Digitale Lehrszenarien zur Überbrückung der Einschränkungen in der Lehre](https://ilias.uni-freiburg.de/goto.php?target=crs_1492956&client_id=unifreiburg)
+* [Rechenzentrum Freiburg: Digitale Lehre im SoSe 20 - Informieren und loslegen!](https://ilias.uni-freiburg.de/goto.php?target=cat_1488395)
+
+
+## Software und Hardware am Institut
+
+* [Camtasia 6 Zugänge für Dozierende (Videoschnitt)](https://www.techsmith.de/camtasia.html)
+* [2 USB Mikrophone zur Aufnahme von Powerpoints](https://www.amazon.de/Rode-Studioqualit%C3%A4t-USB-Kondensatormikrofon-Tischstativ-Popschutz/dp/B00KQPGRRE): Befinden sich im Institut. Ein Mikro befindet sich im Kabuff, das andere im Stahlschrank (Nachfrage bei Christian)
+* Multimedia PC mit den hier aufgeführten Softwares (im Kabuff)
+* [Articulate Storyline](https://articulate.com/): Erstellung von Web-Based Trainings. Eine Lizenz im Multimedia-PC vorhanden (Kabuff)
+* [Captivate](https://www.adobe.com/de/products/captivate.html)
+
+## Feedback
+
+Fehlermeldungen und Wünsche zur Erweiterung der Dokumentation bitte an: [contact@leonard-woelfl.de](mailto:contact@leonard-woelfl.de)
