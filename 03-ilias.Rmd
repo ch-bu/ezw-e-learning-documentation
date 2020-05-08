@@ -1,4 +1,4 @@
-# Lernplattform Ilias
+# Ilias
 
 ## Neue Lehrveranstaltungen anlegen
 Das Anlegen von Kursräumen geschieht immer über das Magazin. Gehen Sie wie folgt vor:

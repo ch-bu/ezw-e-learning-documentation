@@ -1,22 +1,11 @@
-# Video-Tools
+# Videos erstellen
 
-## Online-Vorlesungen erstellen
+## Videos mit Camtasia erstellen
 
-Mit [Camtasia](https://www.techsmith.com/download/camtasia/) kann der Bildschirm inklusive Sprache aufgezeichnet werden und die entstandene Aufzeichnung geschnitten, bearbeitet und erweitert werden. Das Institut besitzt Lizenzen für Camtasia.
+Mit [Camtasia](https://www.techsmith.com/download/camtasia/) kann der Bildschirm inklusive Sprache aufgezeichnet werden und die entstandene Aufzeichnung geschnitten, bearbeitet und erweitert werden. Das Institut besitzt Lizenzen für Camtasia. Vom Rechenzentrum gibt es ein [umfassendes Video](https://www.videoportal.uni-freiburg.de/video/Webinar-Screencasts-und-E-Lectures-mit-Camtasia-07042020/503cf8f2f5e0fbe99c5a85939f808ba9) zur Erstellung von Vorlesungen und Videoinhalten mit Camtasia.
 
-Vom Rechenzentrum gibt es ein umfassendes Video zur Erstellung von Vorlesungen und Videoinhalten mit Camtasia.
-
-Ab 20:50 gibt es allgemeine Empfehlungen zu Umfang und der Vorbereitung von Onlinevorlesungen.
-
-Ab 31:30 geht es konkret um die Programmoberfläche von Camtasia anhand einer Beispielvorlesung.
-
-<iframe
-  width="640"
-  height="360"
-  src="https://videoportal.vm.uni-freiburg.de/media/embed?key=503cf8f2f5e0fbe99c5a85939f808ba9&width=640&height=360&autoplay=false&autolightsoff=false&loop=false&chapters=false&related=false&responsive=false&t=1250
-"
-  allowfullscreen
-></iframe>
+* Ab 20:50 gibt es allgemeine Empfehlungen zu Umfang und der Vorbereitung von Onlinevorlesungen.
+* Ab 31:30 geht es konkret um die Programmoberfläche von Camtasia anhand einer Beispielvorlesung.
 
 ### Praktische Tastenkombinationen zu Camtasia
 
