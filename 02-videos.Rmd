@@ -27,7 +27,7 @@ Unter MacOS starten Sie die Aufzeichnung mit **Command+Shift+2** und stoppen mit
 ### Videos aus Camtasia exportieren
 Klicken Sie im grünen Menü "Weitergeben" auf "Lokale Datei" und wählen Sie "Nur MP4 (720p)". Diese Einstellung ist für die meisten Anwendungen ausreichend und sorgt dafür, dass die Dateigröße "im Rahmen bleibt".
 
-![Weitergeben-Menü](./images/Camtasia-weitergeben.png) ![mp4 - 720p auswählen](./images/Camtasia-720.png)
+![](./images/Camtasia-weitergeben.png) ![](./images/Camtasia-720.png)
 
 
 ## Videos auf Ilias hochladen
@@ -49,9 +49,9 @@ Auf Kurs- und Ordner-Ebene gibt es oben auf der Seite einen Link "Seite gestalte
 diesen Link, kann man anschließend über das [+]-Zeichen "Bild/Audio/Video einfügen" auswählen.
 Über [Datei wählen] lässt sich im nächsten Schritt z.B. eine MP4-Videodatei auswählen.
 
-![seite gestalten - hinzufügen - Bild/Video](./images/seite-gestalten-video.png) 
+![](./images/seite-gestalten-video.png) 
 
-![Ilias - neues Medienobjekt hochladen](./images/ilias-medienobjekt.png)
+![](./images/ilias-medienobjekt.png)
 
 Das Einbinden auf diesem Weg funktioniert auch in anderen ILIAS-Objekten (z.B. in Wikis, Lernmodulen
 usw.). 
@@ -66,17 +66,17 @@ Um Videos mit einer Länge von über 15 Minuten hochzuladen, müssen Sie einen s
 Zum Hochladen wählen Sie das Erstellen-Icon und "Videos hochladen".
 Achten Sie beim Upload darauf, "nicht gelistet" auszuwählen, um das Video nicht auf Ihrem Youtube-Kanal zu veröffentlichen.
 
-![youtube upload-button](./images/yt-upload1.png) ![nicht gelistet](./images/yt-nicht-gelistet.png)
+![](./images/yt-upload1.png) ![](./images/yt-nicht-gelistet.png)
 
 Warten Sie, bis das Video hochgeladen und verarbeitet wurde. Klicken Sie nun in der Videoübersicht auf das Youtube-Icon, um es anzusehen.
-![alt](./images/yt-ansehen.png)
+![](./images/yt-ansehen.png)
 Wählen Sie nun "Teilen" -> "Einbetten" und aktivieren Sie den "Erweiterten Datenschutzmodus".
-![alt](./images/yt-teilen.png) ![alt](./images/yt-einbetten.png) ![alt](./images/yt-datenschutz.png)
+![](./images/yt-teilen.png) ![](./images/yt-einbetten.png) ![](./images/yt-datenschutz.png)
 
 Hier können Sie den Embedd-Code des Videos kopieren und in Ihre Ilias-Seite über "Seite gestalten" -> "Text einfügen" einbetten.
 Das Video sollte nun für alle Kursteilnehmer sichtbar sein, jedoch nicht für Besucher Ihres Youtube-Kanals.
 
-![Ilias text einfügen](./images/ilias-text.png)
+![](./images/ilias-text.png)
 
 ### Einbetten über das Objekt "Mediacast"
 Das Objekt Mediacast findet man unter [Neues Objekt hinzufügen]. Der Mediacast eignet sich gut für
@@ -127,7 +127,7 @@ Sollte Ihr Video größer als das Uploadlimit sein, können Sie es mit einem Vid
 
 Wählen Sie **Quelle** in der Werkzeugleiste oder ziehen Sie das Video per Drag & Drop in das Fenster.
 
-![Quelle](./images/hb-quelle.png)
+![](./images/hb-quelle.png)
 
 **Bild- und Videoeinstellungen wählen**
 
@@ -136,14 +136,14 @@ Im Reiter **Video** stellen Sie die Bildrate auf "Wie Quelle" und geben eine **B
 Für Bildschirmaufzeichnungen sind Werte von 500 bis 1500 ausreichend, für bewegte Videos sind 5000 empfehlenswert.
 
 
-![720p](./images/hb-720p.png)
-![bitrate wie quelle, 1500 kbps](./images/hb-fps-bitrate.png)
+![](./images/hb-720p.png)
+![](./images/hb-fps-bitrate.png)
 
 **Den Ausgabeordner wählen**
 
 Geben Sie einen Ausgabeordner und Dateinamen an. Dort wird das fertige Video gespeichert. Die Dateiendung sollte auf .mp4 oder .m4v gestellt sein.
 
-![Ziel-Ordner angeben](./images/hb-ziel.png)
+![](./images/hb-ziel.png)
 
 Wählen Sie den Start-Knopf in der Werkzeugleiste, um den Kodiervorgang zu starten.
 
