@@ -36,11 +36,13 @@ Um Videos so auf Ilias einzubinden, dass sie direkt abspielbar sind, haben Sie f
 
 1. [Direkter Upload in Ilias](#direkter-upload-in-ilias)
 
-2. [Einbetten über "Mediacast"](#einbetten-%C3%BCber-das-objekt-mediacast)
+2. [Einbetten von YouTube](#einbetten-von-youtube)
 
-3. [Einbinden über "ViMP"](#einbinden-%C3%BCber-vimp)
+3. [Einbetten über "Mediacast"](#einbetten-%C3%BCber-das-objekt-mediacast)
 
-4. [Als Interaktives Video einfügen](#interaktives-video)
+4. [Einbinden über "ViMP"](#einbinden-%C3%BCber-vimp)
+
+5. [Als Interaktives Video einfügen](#interaktives-video)
 
 ### Direkter Upload in Ilias
 Auf Kurs- und Ordner-Ebene gibt es oben auf der Seite einen Link "Seite gestalten". Klickt man auf
@@ -55,6 +57,26 @@ Das Einbinden auf diesem Weg funktioniert auch in anderen ILIAS-Objekten (z.B. i
 usw.). 
 
 Die Uploadgrenze liegt bei 500 MB pro Video. Ggf. können Sie [zu große Videos konvertieren](#zu-gro%C3%9Fe-videos-konvertieren).
+
+### Einbetten von Youtube
+Falls Sie einen Youtube-Account besitzen, können Sie ihre Videos unsichtbar als "nicht gelistet" hochladen und in Ilias einbetten.
+
+Um Videos mit einer Länge von über 15 Minuten hochzuladen, müssen Sie einen sog. bestätigten Account haben. Dafür erhalten Sie per SMS einen Bestätigungscode ([youtube.com/verify](https://www.youtube.com/verify)).
+
+Zum Hochladen wählen Sie das Erstellen-Icon und "Videos hochladen".
+Achten Sie beim Upload darauf, "nicht gelistet" auszuwählen, um das Video nicht auf Ihrem Youtube-Kanal zu veröffentlichen.
+
+![youtube upload-button](./images/yt-upload1.png) ![nicht gelistet](./images/yt-nicht-gelistet.png)
+
+Warten Sie, bis das Video hochgeladen und verarbeitet wurde. Klicken Sie nun in der Videoübersicht auf das Youtube-Icon, um es anzusehen.
+![alt](./images/yt-ansehen.png)
+Wählen Sie nun "Teilen" -> "Einbetten" und aktivieren Sie den "Erweiterten Datenschutzmodus".
+![alt](./images/yt-teilen.png) ![alt](./images/yt-einbetten.png) ![alt](./images/yt-datenschutz.png)
+
+Hier können Sie den Embedd-Code des Videos kopieren und in Ihre Ilias-Seite über "Seite gestalten" -> "Text einfügen" einbetten.
+Das Video sollte nun für alle Kursteilnehmer sichtbar sein, jedoch nicht für Besucher Ihres Youtube-Kanals.
+
+![Ilias text einfügen](./images/ilias-text.png)
 
 ### Einbetten über das Objekt "Mediacast"
 Das Objekt Mediacast findet man unter [Neues Objekt hinzufügen]. Der Mediacast eignet sich gut für
