@@ -3,5 +3,10 @@ This is a minimal example of a book based on R Markdown and **bookdown** (https:
 
 # TODO
 
-* Drucker einrichten
-* Wo finde ich was?
+* Ich möchte ...
+* SPSS Dokumentation
+* Virtuelle Maschine für die Werthmanstraße einrichten.
+* Drucker installieren (Mac + Windows)
+* Owncloud einrichten
+* Raumverwaltung Google
+* 

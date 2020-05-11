@@ -8,6 +8,7 @@
 * [Kahoot](https://kahoot.it/): Mit Kahoot kann man Live-Umfragen in der Lehre erstellen. Wir haben 7 Lizenzen für diese Software.
 * [MaxQda](https://www.maxqda.de/): Tool zur Auswertung von Texten. 5 USB-Sticks mit aktivierten Lizenzen
 * [Limesurvey](https://umfrage.ezw.uni-freiburg.de/index.php/admin/authentication/sa/login): Erstellung von Online-Umfragen für die Forschung.
+* SPSS: Jede\*r Mitarbeiter\*in erhält eine Lizenz. Die Lizenzen gelten in der Regel ein Jahr.
 
 ## Hardware am Institut
 
