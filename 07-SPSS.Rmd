@@ -1,34 +1,60 @@
 # SPSS
 
+Hier finden Sie Anleitungen zum Installieren und Lizenzieren von SPSS.
+
+1. [SPSS auf Mac installieren](#macos)
+
+2. [SPSS unter Windows installieren](#windows)
+
+3. [Lizenzieren bzw. Lizenzverlängerung](#lizenzverlängerung)
+
 ## SPSS installieren
 
-### Mac
+### MacOS
+
+Das Setup liegt in einer ISO-Datei verpackt. **Platzhalter:** Diese befindet sich unter Owncloud\0_Institut\3_EDV\spss-statistics-24.0-win-ml **Platzhalter**
+
+![](images/spss_mac_diskimage.jpg)
+
+Öffnen Sie das DiskImage mit Rechtsklick -> "Öffnen mit" -> "DiskImageMounter". 
+
+Nun erscheint es auf der linken Seite des Finders unter "Geräte" als "SPSSStatistics". Öffnen Sie es und den darin verpackten Installer.
+
+![](images/spss_mac_diskimage_mounted.jpg)
+
+![](images/spss_mac_installer1.jpg)
+
+![](images/spss_mac_installer2.jpg)
+
+Bestätigen Sie, dass Sie das Programm öffnen möchten und starten Sie die Installation.
+
+![](images/spss_mac_installer3.jpg)
+
 
 ### Windows
 
 Das Setup liegt in einer ISO-Datei verpackt. **Platzhalter:** Diese befindet sich unter Owncloud\0_Institut\3_EDV\spss-statistics-24.0-win-ml **Platzhalter**
 
-![](images/spss_iso.png)
+Mit Rechtsklick -> "Bereitstellen" wird die ISO-Datei eingehängt und wird nun unter "Dieser PC" als DVD angezeigt. Öffnen Sie darin den Ordner Windows und starten Sie das Setup.
 
-Mit Rechtsklick -> "Bereitstellen" wird die ISO-Datei eingehängt und wird nun unter "Dieser PC" als DVD angezeigt. Öffnen Sie sie und starten Sie das Setup.
+![](images/spss_iso.png)
 
 ![](images/spss_iso_mounted.png)
 
-## Lizenzverlängerung
+## Lizenzierung
 
-Die Ausgangssituation: SPSS zeigt an, dass das Datum für die Lizenzverlängerung verstrichen ist. Es muss ein neuer Lizenzschlüssel eingegeben werden.
+Starten Sie den Lizenzauthorisierungsassistenten. 
 
-![](images/spss_lizenz_abgelaufen.png) 
+![](images/spss_auth_assi.png)
+![](images/spss_auth_mac.jpg)
 
-Dafür muss der Lizenzauthorisierungsassistent gestartet werden. Unter Windows öffnen Sie das Startmenü und suchen nach "SPSS Lizenzauthorisierung".
+Unter Windows öffnen Sie das Startmenü und suchen nach "SPSS Lizenzauthorisierung".
 
 Unter Mac drücken Sie [⌘+Leertaste] und suchen nach "SPSS Lizenzauthorisierung". Alternativ finden Sie den Lizenzautorisierungsassistenten auch im Ordner "Anwendungen" -> "SPSS Statistics".
 
-![](images/spss_auth_assi.png)
- 
 ![](images/spss_auth_assi1.png)
 
-Zunächst erscheint nochmals der Hinweis, die Lizenz sei abgelaufen. Klicken Sie auf Weiter.
+Zunächst erscheint nochmals der Hinweis, die Lizenz sei abgelaufen. Klicken Sie auf Weiter. 
 
 Wählen Sie "Mein Produkt jetzt lizenzieren".
 
@@ -48,5 +74,4 @@ Bei erfolgreicher Lizenzaktivierung sollte ein grüner Text erscheinen:
 
  ![](images/spss_auth_assi4.png)
 
- 
 Klicken Sie Weiter und Fertigstellen. Die Lizenz ist nun 12 Monate gültig.
