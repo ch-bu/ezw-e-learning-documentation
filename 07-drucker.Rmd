@@ -9,10 +9,12 @@ In dieser Dokumentation finden Sie folgende Informationen:
 - [E-Mail ins Adressbuch eintragen](#e-mail-ins-adressbuch-eintragen)
 
 ## Wo befinden sich die Drucker?
+
 Es gibt einen Drucker im 3. OG und einen im 4. OG. Die Drucker stehen direkt bei der Eingangstür.
 ![](./images/drucker.jpg)
 
 ## Wie richtet man die Drucker ein (Windows)?
+
 Wählen Sie **Start** und tippen Sie "Drucker" ein. Wählen Sie **Geräte und Drucker** aus.
 
 Überprüfen Sie, ob dort der Name des Druckers (3.OG bzw. 4.OG) aufgeführt ist. Eventuell müssen Sie zur Seite scrollen, um den Drucker zu finden.
@@ -34,6 +36,7 @@ Wo finde ich die Treiber für die Drucker?
 Sollten Sie den Drucker trotz dieser Anleitung nicht einrichten können, kontaktieren Sie Leonard Wölfl (contact(ät)leonard-woelfl.de).
 
 ## Wie richtet man die Drucker ein (Mac)?
+
 ![](./images/mac_systemeinstellungen.png)
 
 Öffnen Sie die Systemeinstellungen und wählen Sie "Drucker & Scanner". In der linken Spalte sind alle bereits installierten Drucker aufgelistet.
@@ -46,6 +49,7 @@ Sie benötigen für die Installation keinerlei Treiber.
 ![](./images/mac_drucker-hinzufuegen.jpg)
 
 ## Scans per E-Mail schicken
+
 Drücken Sie die Home-Taste am Drucker, um ihn zu aktivieren.
 Wählen Sie **Senden**.
 ![](./images/d_senden.jpg)
@@ -59,6 +63,7 @@ Sie können hier ebenfalls die OCR-Funktion aktivieren, um eine bearbeitbare Wor
 Sobald alle Einstellungen getroffen sind und Sie das Original eingelegt haben, drücken Sie die mechanische "Start"-Taste am Drucker.
 
 ## E-Mail ins Adressbuch eintragen
+
 Um Ihre E-Mail nicht jedes Mal eingeben zu müssen, können sie sich ins Adressbuch eintragen.
 Drücken Sie die Home-Taste am Drucker und wählen Sie **Senden**.
 ![](./images/d_senden.jpg)
