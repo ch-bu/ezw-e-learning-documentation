@@ -8,6 +8,8 @@ Hier finden Sie Anleitungen zum Installieren und Lizenzieren von SPSS.
 
 3. [Lizenzieren bzw. Lizenzverlängerung](#lizenzverlängerung)
 
+4. [Installation von PROCESS](#installation-von-process)
+
 ## SPSS installieren
 
 ### MacOS
@@ -69,3 +71,30 @@ Bei erfolgreicher Lizenzaktivierung sollte ein grüner Text erscheinen:
  ![](images/spss_auth_assi4.png)
 
 Klicken Sie Weiter und Fertigstellen. Die Lizenz ist aktiviert.
+
+## Installation von PROCESS
+
+Laden Sie PROCESS von der offiziellen Seite herunter: https://www.processmacro.org/download.html
+
+**Achtung:** Aufgrund eines Fehlers in der aktuellen MacOS-Version müssen Sie die heruntergeladene Datei in einen neuen Ordner in Ihrem Home-Verzeichnis verschieben.
+Sie können PROCESS unter Mac nicht installieren, wenn es in einem der folgenden Ordner liegt: Downloads, Dokumente, Desktop, iCloud oder auf einer externen Festplatte. 
+
+Nachdem Sie das Makro heruntergeladen und ggf. verschoben haben, entpacken Sie das Archiv.
+
+Öffnen Sie den Unterordner **PROCESS v3.3 for SPSS** (die Versionsnummer kann variieren). 
+Dort befindet sich ein weiterer Unterordner **Custom dialog builder file**.
+
+![](./images/spss_process_1.png)
+
+In diesem Ordner befindet sich die Datei process.sps, die das Makro enthält.
+Öffnen Sie sie mit einem Doppelklick und klicken Sie auf **Installieren**
+
+![](./images/spss_process_2.png)
+
+Wenn alles geklappt hat, bestätigt SPSS die Installation mit einem Dialog.
+
+![](./images/spss_process_3.png)
+
+Das Makro ist nun installiert. Sie finden es unter **Analysieren > Regression > PROCESS v3.3**.
+
+![](./images/spss_process_4.png)
