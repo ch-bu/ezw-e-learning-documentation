@@ -1,11 +1,16 @@
-# Tools
+# Weitere digitale Werkzeuge
+
+## Kahoot - Live-Umfragen in der Präsenzlehre
+
+Weitere Informationen zu dieser Software folgen, sobald es wieder Präsenzlehre gibt.
 
 ## Tools zur Gruppenerstellung
 
 * [Random Team Generator](https://www.randomlists.com/team-generator)
 * [Random Group Generator](http://www.aschool.us/random/random-pair.php)
 
-## Padlet
+## Padlet - Kollaborative Pinnwände
+
 Mit Padlet (https://padlet.com) können Sie kollaborative Pinnwände erstellen, auf denen Texte, Bilder, Videos und Dateien übersichtlich strukturiert werden können.
 
 Es gibt vielfältige Möglichkeiten, die Inhalte zu strukturieren, etwa als Mindmap, Zeitstrahl oder Todo-Liste.
