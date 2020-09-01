@@ -3,9 +3,9 @@
 In dieser Dokumentation finden Sie folgende Informationen:
 
 - [Wo befinden sich die Drucker?](#wo-befinden-sich-die-drucker)
-- [Wie richtet man die Drucker ein (Windows)?](#wie-richtet-man-die-drucker-ein-windows)
-- [Wie richtet man die Drucker ein (Mac)?](#wie-richtet-man-die-drucker-ein-mac)
-- [Scans per E-Mail schicken](#scans-per-e-mail-schicken)
+- [Drucker einrichten (Windows)](#drucker-einrichten-windows)
+- [Drucker einrichten (Mac)](#drucker-einrichten-mac)
+- [Scans per E-Mail](#scans-per-e-mail-schicken)
 - [E-Mail ins Adressbuch eintragen](#e-mail-ins-adressbuch-eintragen)
 
 ## Wo befinden sich die Drucker?
@@ -13,29 +13,68 @@ In dieser Dokumentation finden Sie folgende Informationen:
 Es gibt einen Drucker im 3. OG und einen im 4. OG. Die Drucker stehen direkt bei der Eingangstür.
 ![](./images/drucker.jpg)
 
-## Wie richtet man die Drucker ein (Windows)?
+## Drucker einrichten (Windows)
 
-Wählen Sie **Start** und tippen Sie "Drucker" ein. Wählen Sie **Geräte und Drucker** aus.
+Wählen Sie **Start** und tippen Sie "Drucker" ein. Wählen Sie **Geräte und Drucker** bzw. **Drucker & Scanner** aus.
 
-Überprüfen Sie, ob dort der Name des Druckers (3.OG bzw. 4.OG) aufgeführt ist. Eventuell müssen Sie zur Seite scrollen, um den Drucker zu finden.
+Überprüfen Sie, ob dort der Name des Druckers aufgeführt ist. 
+
+Die Modellnummer der Drucker im 3.OG lautet: TASKalfa 4053ci  
+Die Modellnummer der Drucker im 4.OG lautet: TASKalfa 4012i
+
+Eventuell müssen Sie zur Seite scrollen, um den Drucker zu finden.
 
 Klicken Sie mit einem Rechtsklick auf den Drucker und wählen Sie **Als Standarddrucker festlegen**. Nun müsste der Drucker funktionieren.
 
 ![](./images/Standarddrucker.jpg)
 
-Wird der Drucker nicht aufgeführt, klicken Sie auf **Drucker hinzufügen**.
+### Manuelle Druckerinstallation
+Wählen Sie **Start** und tippen Sie "Drucker" ein. Wählen Sie **Geräte und Drucker** bzw. **Drucker & Scanner** aus.  
+Falls der Drucker nicht angezeigt wird, können Sie ihn manuell hinzufügen.
+Klicken Sie dazu auf "Drucker hinzufügen".
 
-![](./images/drucker_scanner.jpg)
+![](./images/drucker_hinzu.jpg)
 
-Warten Sie, bis in der Nähe befindliche Drucker gefunden wurden, und wählen Sie dann **Gerät hinzufügen** aus.
-Nun sollte sich der Drucker von alleine installieren. Typischerweise benötigen Sie keinerlei Treiber.
+![](./images/drucker_hinzu_10.png)
 
-Wenn der Drucker nicht in der Liste aufscheint, wählen Sie **Der gesuchte Drucker ist nicht aufgeführt** aus, dann **Bluetooth- Drahtlos- oder Netzwerkdrucker** und folgen Sie dann den Anweisungen.
-Wo finde ich die Treiber für die Drucker?
+Klicken Sie nun auf "Der gesuchte Drucker ist nicht aufgelistet".
 
-Sollten Sie den Drucker trotz dieser Anleitung nicht einrichten können, kontaktieren Sie Leonard Wölfl (contact(ät)leonard-woelfl.de).
+Wählen Sie nun die unterste Option "Lokalen Drucker oder Netzwerkdrucker mit manuellen Einstellungen hinzufügen" und klicken Sie auf Weiter.  
+Wählen Sie die Option "Neuen Anschluss erstellen", und als Anschlusstyp: ```Standard TCP/IP Port```.
 
-## Wie richtet man die Drucker ein (Mac)?
+![](./images/drucker_anschluss.jpg)
+
+Nun können Sie die IP-Adresse inklusive Punkte eingeben:
+
+```132.230.54.36``` (3.OG)
+bzw.
+```132.230.54.206``` (4.OG)
+
+Als Anschlussname wählen Sie TASKalfa 3.OG bzw. TASKalfa 4.OG.
+
+![](./images/drucker_ip.png)
+
+Setzen Sie das Häkchen bei "Den Drucker abfragen und den zu verwendenden Treiber automatisch auswählen".
+
+Sofern "zusätzliche Anschlussinformationen erforderlich" sind, klicken Sie auf "Benutzerdefiniert" und auf "Einstellungen".  
+Sollte das Fenster "Standard-TCP/IP-Portmonitor konfigurieren" angezeigt werden, wählt Sie bei Protokoll "LPR" aus und geben Sie bei Warteschlangenname die Modellnummer des Druckers ein. Setzen Sie zudem ein Häkchen bei LPR-Bytezählung.
+
+Im nächsten Schritt müssen Sie **den Treiber installieren**.
+
+Wählen Sie auf der linken Seite den Hersteller "Kyocera" und suchen in der rechten Liste die Modellnummer.
+
+Die Modellnummer des Druckers im 3.OG lautet: Kyocera TASKalfa 4053ci XPS  
+Die Modellnummer des Druckers im 4.OG lautet: Kyocera TASKalfa 4012i XPS
+
+Diese Modellnummern befinden sich recht weit unten in der Liste.
+
+![](./images/drucker_modell.png)
+
+Falls das Modell nicht aufgelistet ist, klicken Sie auf den Knopf "Windows Update" und suchen erneut die Liste durch.
+
+Wählen Sie im nächsten Schritt "nicht freigeben" und drucken Sie bei Bedarf eine Testseite, um zu sehen ob der Drucker richtig eingerichtet ist.
+
+## Drucker einrichten (Mac)
 
 ![](./images/mac_systemeinstellungen.png)
 
@@ -43,8 +82,13 @@ Sollten Sie den Drucker trotz dieser Anleitung nicht einrichten können, kontakt
 
 Überprüfen Sie, ob dort der Name des Druckers (3.OG bzw. 4.OG) aufgeführt ist.
 
-Fügen Sie sonst über den "+"-Button unter links den Drucker hinzu. Es öffnet sich ein Fenster mit allen sichbaren Druckern. Wählen Sie hier den zu installierenden Drucker aus.
-Sie benötigen für die Installation keinerlei Treiber.
+Fügen Sie sonst über den "+"-Button unten links den Drucker hinzu. Es öffnet sich ein Fenster mit allen sichbaren Druckern. Wählen Sie hier den zu installierenden Drucker aus.
+
+Die Modellnummer des Druckers im 3.OG lautet: ```Kyocera TASKalfa 4053ci XPS```  
+Die Modellnummer des Druckers im 4.OG lautet: ```Kyocera TASKalfa 4012i XPS```
+
+Die Netzwerkadresse (IP-Adresse) des Druckers im 3.OG lautet: ```132.230.54.36```  
+Die Netzwerkadresse (IP-Adresse) des Druckers im 4.OG lautet: ```132.230.54.206```
 
 ![](./images/mac_drucker-hinzufuegen.jpg)
 
@@ -98,5 +142,3 @@ Wenn Sie ihn nicht sehen, können Sie mit den Pfeiltasten auf der rechten Seite 
 
 Überprüfen Sie die Einstellungen und starten Sie den Scan mit der mechanischen "Start"-Taste am Gerät.
 Sie sollten nun eine E-Mail mit dem von Ihnen gescannten Dokument erhalten haben.
-
-Bei Fragen können Sie sich gerne an Leonard Wölfl wenden (contact(ät)leonard-woelfl.de).

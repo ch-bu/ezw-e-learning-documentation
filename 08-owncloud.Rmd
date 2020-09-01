@@ -53,7 +53,7 @@ Klappen Sie die Ordnerstruktur aus, um feinere Einstellungen zu treffen.
 Sie können auf die ownCloud-Dateien auch über den Browser zugreifen, ohne ownCloud zu installieren.
 Rufen Sie folgende Adresse auf: https://server.ezw.uni-freiburg.de/owncloud/index.php/login
 
-Geben Sie den selben Nutzernamen und das selbse Passwort wie üblich ein. Nun sollten Sie auf Ihre Dateien zugreifen können.
+Geben Sie den selben Nutzernamen und das selbe Passwort wie üblich ein. Nun sollten Sie auf Ihre Dateien zugreifen können.
 
 ![](./images/owncloud_web_login.png)
 

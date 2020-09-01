@@ -18,8 +18,3 @@ Weitere Informationen finden Sie auf den Seiten des Rechenzentrums:
 
 * [Rechenzentrum: Digitale Lehrszenarien zur Überbrückung der Einschränkungen in der Lehre](https://ilias.uni-freiburg.de/goto.php?target=crs_1492956&client_id=unifreiburg)
 * [Rechenzentrum Freiburg: Digitale Lehre im SoSe 20 - Informieren und loslegen!](https://ilias.uni-freiburg.de/goto.php?target=cat_1488395)
-
-
-## Feedback
-
-Fehlermeldungen und Wünsche zur Erweiterung der Dokumentation bitte an: [contact@leonard-woelfl.de](mailto:contact@leonard-woelfl.de)
