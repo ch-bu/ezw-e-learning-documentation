@@ -1,5 +1,7 @@
 # Weitere digitale Werkzeuge
 
+* [Mentimeter](https://www.menti.com/)
+
 ## Kahoot - Live-Umfragen in der Präsenzlehre
 
 Weitere Informationen zu dieser Software folgen, sobald es wieder Präsenzlehre gibt.
